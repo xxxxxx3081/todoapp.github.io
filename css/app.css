@@ -1,0 +1,39 @@
+/*
+
+app-template.css overrides
+
+remove this comment if used
+remove this file if not
+
+*/
+
+body {
+  /* background: linear-gradient(to left bottom, skyblue, lightgreen); */
+  min-height: 100vh;
+  transition: all ease 1000ms;
+}
+
+
+.rotate{
+  display: inline-block;
+  /* width:100rpx;
+  height:100rpx; */
+  animation: rotate 10s linear infinite;
+  }
+  @keyframes rotate{from{transform: rotate(0deg)}
+  to{transform: rotate(360deg)}
+  }
+
+
+  ::selection {
+    background: peachpuff;
+}
+
+::-moz-selection {
+    background: peachpuff;
+}
+
+::-webkit-selection {
+    background: peachpuff;
+}
+
